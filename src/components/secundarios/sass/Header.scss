@@ -1,0 +1,13 @@
+$primary_color: #023866;
+$text_color: #ffff;
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0px 0px 5px black;
+
+  .header__logo {
+    width: 100px;
+  }
+}

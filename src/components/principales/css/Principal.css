@@ -1,0 +1,174 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+}
+
+.header .header__logo {
+  width: 100px;
+}
+
+.wrap__contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .wrap__contenido {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.wrap__contenido .contenido__principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 120vh;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap__contenido .contenido__principal .citas {
+  background-color: #023866;
+  color: #ffff;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.wrap__contenido .contenido__principal .citas .input__borrar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap__contenido .contenido__principal .citas .input__borrar .boton__eliminar {
+  padding: 10px;
+  color: #023866;
+  background-color: #ffff;
+  border: 1px solid #ffff;
+}
+
+.wrap__contenido .contenido__principal .alerta-error {
+  background-color: #eb2f06;
+  text-align: center;
+  color: #ffff;
+  padding: 10px;
+  height: 30px;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form {
+  margin: 10px 0;
+  padding: 10px 0;
+  height: 100vh;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita {
+  padding: 10px;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  padding: 0 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset legend {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset .input__formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset .input__formulario label {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset .input__formulario input[type="text"],
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset .input__formulario input[type="email"],
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset .input__formulario input[type="time"] {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  padding: 10px 0;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset .input__formulario textarea {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  height: 100px;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset .input__formulario:nth-child(9) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset .input__formulario:nth-child(9) .boton--submit {
+  background-color: #023866;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.wrap__contenido .contenido__principal .contenido__principal__form .form_crear_cita fieldset .input__formulario:nth-child(9) .boton--submit:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  background-color: #ffff;
+  color: #023866;
+  border: 1px solid #023866;
+}
+/*# sourceMappingURL=Principal.css.map */

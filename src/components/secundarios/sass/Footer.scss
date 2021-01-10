@@ -1,0 +1,10 @@
+@import "Header";
+
+.footer {
+  padding: 10px;
+  background: $primary_color;
+  color: $text_color;
+  .footer__content {
+    text-align: center;
+  }
+}

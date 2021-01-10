@@ -1,0 +1,77 @@
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+}
+
+.header .header__logo {
+  width: 100px;
+}
+
+.boton {
+  padding: 20px;
+  text-decoration: none;
+  color: #ffff;
+  width: 250px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.contenido__error {
+  background: url("/src/img/404-Error.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #ffff;
+}
+
+.contenido__error .titulo__error {
+  font-size: 40px;
+  text-shadow: 0px 5px 5px #023866;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.contenido__error .subcontenido__error {
+  font-size: 30px;
+  text-shadow: 0px 5px 5px #023866;
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.contenido__error .boton__error {
+  background-color: #023866;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.contenido__error .boton__error:hover {
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+  color: #023866;
+  background-color: #ffff;
+  border: 1px solid #023866;
+}
+/*# sourceMappingURL=CrearCita.css.map */

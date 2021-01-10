@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACGA,AAAA,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,iBAAiB;CAK9B;;AATD,AAME,OANK,CAML,aAAa,CAAC;EACZ,KAAK,EAAE,KAAK;CACb;;ADTH,AAAA,OAAO,CAAC;EACN,OAAO,EAAE,IAAI;EACb,UAAU,ECJI,OAAO;EDKrB,KAAK,ECJM,KAAK;CDQjB;;AAPD,AAIE,OAJK,CAIL,gBAAgB,CAAC;EACf,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "../sass/Footer.scss",
+        "../sass/Header.scss"
+    ],
+    "names": [],
+    "file": "Footer.css"
+}
